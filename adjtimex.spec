@@ -202,7 +202,7 @@ Adjtimex
 
 %build
 autoconf
-%configure 
+%configure
 %{__make}
 
 %install
