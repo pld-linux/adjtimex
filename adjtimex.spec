@@ -10,9 +10,9 @@ Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.ta
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Adjtimex is a kernel clock management program, which the superuser may use
-to correct any drift in the system's clock.  Users can use adjtimex to view
-the time variables.
+Adjtimex is a kernel clock management program, which the superuser may
+use to correct any drift in the system's clock. Users can use adjtimex
+to view the time variables.
 
 %description -l pl
 Program zarz±dzaj±cy zegarem j±dra.
