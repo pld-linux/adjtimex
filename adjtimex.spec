@@ -7,7 +7,7 @@ Copyright:	distributable
 Group:		Base
 Group(pl):	Bazowe
 Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.tar.gz
-Buildroot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Adjtimex is a kernel clock management program, which the superuser may use
