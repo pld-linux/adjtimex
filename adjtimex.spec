@@ -5,7 +5,7 @@ Release:	1
 Exclusiveos:	Linux
 Copyright:	distributable
 Group:		Base
-Group(pl):	Bazowe
+Group(pl):	Podstawowe
 Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
