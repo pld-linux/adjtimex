@@ -1,6 +1,6 @@
 Summary:	A utility for adjusting kernel time variables.
 Name:		adjtimex
-Version:	1.9
+Version:	1.11
 Release:	1
 Exclusiveos:	Linux
 Copyright:	distributable
