@@ -1,0 +1,11 @@
+--- adjtimex-1.9/adjtimex.c.gafton	Fri Mar  3 12:18:37 2000
++++ adjtimex-1.9/adjtimex.c	Fri Mar  3 12:20:46 2000
+@@ -205,7 +205,7 @@
+ 
+     txc.modes = 0;
+ 
+-    while((c = getopt_long_only(argc, argv, "", 
++    while((c = getopt_long_only(argc, argv, "pt:f:s:o:m:e:T:cai:wruv", 
+ 				longopt, NULL)) != -1)
+       {
+ 	switch(c)
