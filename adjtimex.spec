@@ -10,6 +10,9 @@ Group(es):	Base
 Group(pl):	Podstawowe
 Group(pt_BR):	Base
 Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.tar.gz
+Patch0:		%{name}-getopt.patch
+Patch1:		%{name}-ia64.patch
+Patch2:		%{name}-fixman.patch
 BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -33,6 +36,9 @@ podgl±du zmiennych czasu.
 
 %prep
 %setup -q
+%patch0 -p1
+%patch1 -p1
+%patch2 -p1
 
 %build
 autoconf
