@@ -3,7 +3,7 @@ Summary(pl):	Narzêdzie do regulacji zmiennych czasu kernela
 Name:		adjtimex
 Version:	1.12
 Release:	2
-License:	Distributable
+License:	distributable
 Group:		Base
 Group(de):	Gründsätzlich
 Group(es):	Base
