@@ -32,6 +32,7 @@ podgl±du zmiennych czasu.
 %setup -q
 
 %build
+autoconf
 %configure 
 %{__make}
 
