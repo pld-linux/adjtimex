@@ -18,16 +18,12 @@ Summary(sv):	Ett verktyg fЖr att justera kДrnans tidsvariabler
 Summary(uk):	Утил╕та для внесення поправок в зм╕нн╕ часу ядра
 Summary(zh_CN):	сцсз╣ВуШдз╨кй╠╪Д╠Да©╣дй╣сцЁлпР║ё
 Name:		adjtimex
-Version:	1.13
-Release:	6
+Version:	1.20
+Release:	1
 License:	GPL
 Group:		Base
 Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.tar.gz
-# Source0-md5:	2cc7bb2904b5ed3cd04c90665ffcb42c
-Patch0:		%{name}-getopt.patch
-Patch1:		%{name}-ia64.patch
-Patch2:		%{name}-fixman.patch
-Patch3:		%{name}-gcc33.patch
+# Source0-md5:	00b56c266e707b8c753dfe1d33745226
 BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -198,10 +194,6 @@ Adjtimex
 
 %prep
 %setup -q
-%patch0 -p1
-%patch1 -p1
-%patch2 -p1
-%patch3 -p1
 
 %build
 %{__autoconf}
