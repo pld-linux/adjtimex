@@ -8,7 +8,7 @@ Summary(id):	Utility untuk menyamakan variabel time kernel
 Summary(is):	Tól til ağ stilla tímabreytur í kjarna
 Summary(it):	Utility per modificare le variabili temporali del kernel
 Summary(ja):	¥«¡¼¥Í¥ë¤Î»ş´ÖÊÑ¿ô¤òÄ´À°¤¹¤ë¤¿¤á¤Î¥æ¡¼¥Æ¥£¥ê¥Æ¥£
-Summary(no):	Et verktøy for å justere kjernens tidsvariabler
+Summary(nb):	Et verktøy for å justere kjernens tidsvariabler
 Summary(pl):	Narzêdzie do regulacji zmiennych czasu kernela
 Summary(pt):	Um utilitário para ajustar as variáveis de tempo do núcleo
 Summary(ru):	õÔÉÌÉÔÁ ÄÌÑ ×ÎÅÓÅÎÉÑ ĞÏĞÒÁ×ÏË × ĞÅÒÅÍÅÎÎÙÅ ×ÒÅÍÅÎÉ ÑÄÒÁ
@@ -126,7 +126,7 @@ adjtimex
 »ÈÍÑ¤·¤Æ¥·¥¹¥Æ¥à¥¯¥í¥Ã¥¯¤ò´ÉÍı¤¹¤ëÉ¬Í×¤¬¤¢¤ê¤Ş¤¹¡£¥æ¡¼¥¶¡¼¤Ï¡¢
 adjtimex ¤ò»ÈÍÑ¤·¤Æ¡¢¥«¡¼¥Í¥ë¤Î»ş´ÖÊÑ¿ô¤ò»²¾È¤Ç¤­¤Ş¤¹¡£
 
-%description -l no
+%description -l nb
 Adjtimex gir direkte tilgang til kjernens tidvariabler. På
 frittstående eller midlertidige tilkoblede maskiner, kan root bruke
 adjtimex til å korrigere systemets tidsavvik. Hvis din maskin er
