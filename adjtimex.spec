@@ -23,6 +23,7 @@ Release:	5
 License:	GPL
 Group:		Base
 Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.tar.gz
+# Source0-md5:	2cc7bb2904b5ed3cd04c90665ffcb42c
 Patch0:		%{name}-getopt.patch
 Patch1:		%{name}-ia64.patch
 Patch2:		%{name}-fixman.patch
