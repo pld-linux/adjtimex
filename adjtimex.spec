@@ -19,7 +19,7 @@ Summary(uk):	Утил╕та для внесення поправок в зм╕нн╕ часу ядра
 Summary(zh_CN):	сцсз╣ВуШдз╨кй╠╪Д╠Да©╣дй╣сцЁлпР║ё
 Name:		adjtimex
 Version:	1.13
-Release:	2
+Release:	5
 License:	GPL
 Group:		Base
 Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.tar.gz
@@ -212,13 +212,11 @@ install -d $RPM_BUILD_ROOT{%{_sbindir},%{_mandir}/man8}
 install adjtimex $RPM_BUILD_ROOT%{_sbindir}
 install adjtimex.8 $RPM_BUILD_ROOT%{_mandir}/man8
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README
 %attr(755,root,root) %{_sbindir}/*
 %{_mandir}/man8/*
