@@ -1,4 +1,5 @@
 Summary:	A utility for adjusting kernel time variables.
+Summary(pl):	Narzêdzie do regulacji zmiennych czasu kernela.
 Name:		adjtimex
 Version:	1.11
 Release:	1
@@ -16,6 +17,8 @@ to view the time variables.
 
 %description -l pl
 Program zarz±dzaj±cy zegarem j±dra.
+Root mo¿e u¿yæ go do korekcji zegara systemowego, natomiast u¿ytkownik
+mo¿e skorzystaæ tylko z podgl±du zmiennych czasu.
 
 %prep
 %setup -q
