@@ -22,7 +22,7 @@ Program zarz±dzaj±cy zegarem j±dra.
 
 %build
 %configure 
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
