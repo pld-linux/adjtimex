@@ -1,7 +1,7 @@
 Summary:	A utility for adjusting kernel time variables.
 Summary(pl):	Narzêdzie do regulacji zmiennych czasu kernela.
 Name:		adjtimex
-Version:	1.11
+Version:	1.12
 Release:	1
 Exclusiveos:	Linux
 Copyright:	distributable
