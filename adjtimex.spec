@@ -1,13 +1,16 @@
-Summary:	A utility for adjusting kernel time variables.
-Summary(pl):	Narzêdzie do regulacji zmiennych czasu kernela.
+Summary:	A utility for adjusting kernel time variables
+Summary(pl):	Narzêdzie do regulacji zmiennych czasu kernela
 Name:		adjtimex
 Version:	1.12
 Release:	1
 License:	Distributable
 Group:		Base
 Group(de):	Gründsätzlich
+Group(es):	Base
 Group(pl):	Podstawowe
+Group(pt_BR):	Base
 Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sbindir		/sbin
