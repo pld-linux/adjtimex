@@ -19,7 +19,7 @@ Summary(uk):	Утил╕та для внесення поправок в зм╕нн╕ часу ядра
 Summary(zh_CN):	сцсз╣ВуШдз╨кй╠╪Д╠Да©╣дй╣сцЁлпР║ё
 Name:		adjtimex
 Version:	1.13
-Release:	5
+Release:	6
 License:	GPL
 Group:		Base
 Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.tar.gz
@@ -27,6 +27,7 @@ Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.ta
 Patch0:		%{name}-getopt.patch
 Patch1:		%{name}-ia64.patch
 Patch2:		%{name}-fixman.patch
+Patch3:		%{name}-gcc33.patch
 BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -200,6 +201,7 @@ Adjtimex
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
+%patch3 -p1
 
 %build
 %{__autoconf}
