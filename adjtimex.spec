@@ -1,22 +1,22 @@
 Summary:	A utility for adjusting kernel time variables
-Summary(cs):	Program pro nastavování èasovıch promìnnıch jádra
-Summary(da):	Et værktøj til at justere kernetidsvariabler
-Summary(de):	Ein Dienstprogramm für die Einstellung der Kernel-Zeitvariablen
-Summary(es):	Utilidad para modificar las variables de tiempo del kernel
-Summary(fr):	Utilitaire pour le réglage de l'horloge du noyau
-Summary(id):	Utility untuk menyamakan variabel time kernel
-Summary(is):	Tól til ağ stilla tímabreytur í kjarna
-Summary(it):	Utility per modificare le variabili temporali del kernel
-Summary(ja):	¥«¡¼¥Í¥ë¤Î»ş´ÖÊÑ¿ô¤òÄ´À°¤¹¤ë¤¿¤á¤Î¥æ¡¼¥Æ¥£¥ê¥Æ¥£
-Summary(nb):	Et verktøy for å justere kjernens tidsvariabler
-Summary(pl):	Narzêdzie do regulacji zmiennych czasu kernela
-Summary(pt):	Um utilitário para ajustar as variáveis de tempo do núcleo
-Summary(ru):	õÔÉÌÉÔÁ ÄÌÑ ×ÎÅÓÅÎÉÑ ĞÏĞÒÁ×ÏË × ĞÅÒÅÍÅÎÎÙÅ ×ÒÅÍÅÎÉ ÑÄÒÁ
-Summary(sk):	Pomôcka pre úpravu premennıch hodín jadra
-Summary(sl):	Pripomoèek za prikrojitev èasovnih spremenljivk jedra
-Summary(sv):	Ett verktyg för att justera kärnans tidsvariabler
-Summary(uk):	õÔÉÌ¦ÔÁ ÄÌÑ ×ÎÅÓÅÎÎÑ ĞÏĞÒÁ×ÏË × ÚÍ¦ÎÎ¦ ŞÁÓÕ ÑÄÒÁ
-Summary(zh_CN):	ÓÃÓÚµ÷ÕûÄÚºËÊ±¼ä±äÁ¿µÄÊµÓÃ³ÌĞò¡£
+Summary(cs.UTF-8):   Program pro nastavovÃ¡nÃ­ ÄasovÃ½ch promÄ›nnÃ½ch jÃ¡dra
+Summary(da.UTF-8):   Et vÃ¦rktÃ¸j til at justere kernetidsvariabler
+Summary(de.UTF-8):   Ein Dienstprogramm fÃ¼r die Einstellung der Kernel-Zeitvariablen
+Summary(es.UTF-8):   Utilidad para modificar las variables de tiempo del kernel
+Summary(fr.UTF-8):   Utilitaire pour le rÃ©glage de l'horloge du noyau
+Summary(id.UTF-8):   Utility untuk menyamakan variabel time kernel
+Summary(is.UTF-8):   TÃ³l til aÃ° stilla tÃ­mabreytur Ã­ kjarna
+Summary(it.UTF-8):   Utility per modificare le variabili temporali del kernel
+Summary(ja.UTF-8):   ã‚«ãƒ¼ãƒãƒ«ã®æ™‚é–“å¤‰æ•°ã‚’èª¿æ•´ã™ã‚‹ãŸã‚ã®ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£
+Summary(nb.UTF-8):   Et verktÃ¸y for Ã¥ justere kjernens tidsvariabler
+Summary(pl.UTF-8):   NarzÄ™dzie do regulacji zmiennych czasu kernela
+Summary(pt.UTF-8):   Um utilitÃ¡rio para ajustar as variÃ¡veis de tempo do nÃºcleo
+Summary(ru.UTF-8):   Ğ£Ñ‚Ğ¸Ğ»Ğ¸Ñ‚Ğ° Ğ´Ğ»Ñ Ğ²Ğ½ĞµÑĞµĞ½Ğ¸Ñ Ğ¿Ğ¾Ğ¿Ñ€Ğ°Ğ²Ğ¾Ğº Ğ² Ğ¿ĞµÑ€ĞµĞ¼ĞµĞ½Ğ½Ñ‹Ğµ Ğ²Ñ€ĞµĞ¼ĞµĞ½Ğ¸ ÑĞ´Ñ€Ğ°
+Summary(sk.UTF-8):   PomÃ´cka pre Ãºpravu premennÃ½ch hodÃ­n jadra
+Summary(sl.UTF-8):   PripomoÄek za prikrojitev Äasovnih spremenljivk jedra
+Summary(sv.UTF-8):   Ett verktyg fÃ¶r att justera kÃ¤rnans tidsvariabler
+Summary(uk.UTF-8):   Ğ£Ñ‚Ğ¸Ğ»Ñ–Ñ‚Ğ° Ğ´Ğ»Ñ Ğ²Ğ½ĞµÑĞµĞ½Ğ½Ñ Ğ¿Ğ¾Ğ¿Ñ€Ğ°Ğ²Ğ¾Ğº Ğ² Ğ·Ğ¼Ñ–Ğ½Ğ½Ñ– Ñ‡Ğ°ÑÑƒ ÑĞ´Ñ€Ğ°
+Summary(zh_CN.UTF-8):   ç”¨äºè°ƒæ•´å†…æ ¸æ—¶é—´å˜é‡çš„å®ç”¨ç¨‹åºã€‚
 Name:		adjtimex
 Version:	1.21
 Release:	1
@@ -37,55 +37,55 @@ is equipped with a precision oscillator or radio clock, you should
 instead manage the system clock with the xntpd program. Users can use
 adjtimex to view kernel time variables.
 
-%description -l cs
-Adjtimex poskytuje syrovı pøístup k èasovım promìnnım jádra. Na
-poèítaèi, kterı není zasí»ovanı nebo se pøipojuje k Internetu pouze
-obèas, mù¾e root pou¾ívat adjtimex pro korekci trvalého driftu hodin
-(tj. pokud se systémové hodiny za bìhu operaèního systému zpomalují
-nebo zrychlují proti pøesnému èasu). Jestli¾e je vá¹ poèítaè pøipojen
-do Internetu nebo je vybaven pøesnım oscilátorem nebo rádiem øízenımi
-hodinami, mìli byste místo adjtimexu nastavovat systémové hodiny
-programem xntpd. U¾ivatelé mohou pou¾ívat program adjtimex pro ètení
-èasovıch promìnnıch jádra.
+%description -l cs.UTF-8
+Adjtimex poskytuje syrovÃ½ pÅ™Ã­stup k ÄasovÃ½m promÄ›nnÃ½m jÃ¡dra. Na
+poÄÃ­taÄi, kterÃ½ nenÃ­ zasÃ­Å¥ovanÃ½ nebo se pÅ™ipojuje k Internetu pouze
+obÄas, mÅ¯Å¾e root pouÅ¾Ã­vat adjtimex pro korekci trvalÃ©ho driftu hodin
+(tj. pokud se systÃ©movÃ© hodiny za bÄ›hu operaÄnÃ­ho systÃ©mu zpomalujÃ­
+nebo zrychlujÃ­ proti pÅ™esnÃ©mu Äasu). JestliÅ¾e je vÃ¡Å¡ poÄÃ­taÄ pÅ™ipojen
+do Internetu nebo je vybaven pÅ™esnÃ½m oscilÃ¡torem nebo rÃ¡diem Å™Ã­zenÃ½mi
+hodinami, mÄ›li byste mÃ­sto adjtimexu nastavovat systÃ©movÃ© hodiny
+programem xntpd. UÅ¾ivatelÃ© mohou pouÅ¾Ã­vat program adjtimex pro ÄtenÃ­
+ÄasovÃ½ch promÄ›nnÃ½ch jÃ¡dra.
 
-%description -l da
-Adjtimex giver direkte adgang til kernens tidvariabler. På fritstående
+%description -l da.UTF-8
+Adjtimex giver direkte adgang til kernens tidvariabler. PÃ¥ fritstÃ¥ende
 eller midlertidige tilkoblede maskiner, kan root bruge adjtimex til at
 korrigere systemets tidsafvigelse. Hvis din maskine er tilkoblet
 Internet eller er udstyret med en precisionsoscillator eller
-radioklokke, bør du hellere bruge xntpd programmet til at styre
+radioklokke, bÃ¸r du hellere bruge xntpd programmet til at styre
 klokken. Brugere kan bruge adjtimex til at vise kernens tidsvariabler.
 
-%description -l de
-Adjtimex ermöglicht den direkten Zugriff auf die Zeitvariablen des
+%description -l de.UTF-8
+Adjtimex ermÃ¶glicht den direkten Zugriff auf die Zeitvariablen des
 Kernels. Bei nicht vernetzten oder nur zeitweise mit dem Netz
 verbundenen Computern kann Root mit Hilfe von adjtimex die
 systematische Zeitabweichung korrigieren. Wenn Ihr Rechner mit dem
-Internet verbunden oder mit einem Präzisionsoszillator oder einer
-Funkuhr ausgerüstet ist, sollten Sie die Systemuhr stattdessen mit dem
-Programm xntpd einstellen. Die Benutzer können mit adjtimex die
+Internet verbunden oder mit einem PrÃ¤zisionsoszillator oder einer
+Funkuhr ausgerÃ¼stet ist, sollten Sie die Systemuhr stattdessen mit dem
+Programm xntpd einstellen. Die Benutzer kÃ¶nnen mit adjtimex die
 Zeitvariablen des Kernels anzeigen.
 
-%description -l es
+%description -l es.UTF-8
 Adjtimex proporciona un acceso de bajo nivel a las variables de tiempo
-del kernel. En máquinas independientes o en máquinas conectadas a
-intervalos, el usuario raíz puede utilizar adjtimex para corregir el
-margen de error del reloj. Si el ordenador está conectado a Internet o
-está dotado de un oscilador de precisión o un reloj radio, debería
+del kernel. En mÃ¡quinas independientes o en mÃ¡quinas conectadas a
+intervalos, el usuario raÃ­z puede utilizar adjtimex para corregir el
+margen de error del reloj. Si el ordenador estÃ¡ conectado a Internet o
+estÃ¡ dotado de un oscilador de precisiÃ³n o un reloj radio, deberÃ­a
 poder usar el programa xntpd para corregir la hora. Los usuarios
 pueden usar adjtimex para ver las variables de tiempo del kernel.
 
-%description -l fr
-Adjtimex offre un accès direct à l'horloge du noyau. Sur les
-ordinateurs autonomes ou connectés de façon intermittente, un
-utilisateur connecté en tant que root peut utiliser adjtimex pour
-corriger la dérive systématique. Si votre ordinateur est connecté à
-Internet ou équipé d'un oscillateur de précision ou d'une horloge
-radio, gérez plutôt l'horloge système avec le programme xntpd. Les
+%description -l fr.UTF-8
+Adjtimex offre un accÃ¨s direct Ã  l'horloge du noyau. Sur les
+ordinateurs autonomes ou connectÃ©s de faÃ§on intermittente, un
+utilisateur connectÃ© en tant que root peut utiliser adjtimex pour
+corriger la dÃ©rive systÃ©matique. Si votre ordinateur est connectÃ© Ã 
+Internet ou Ã©quipÃ© d'un oscillateur de prÃ©cision ou d'une horloge
+radio, gÃ©rez plutÃ´t l'horloge systÃ¨me avec le programme xntpd. Les
 utilisateurs peuvent utiliser adjtimex pour voir les variables de
 temps du noyau.
 
-%description -l id
+%description -l id.UTF-8
 Adjtimex menyediakan raw access terhadap variable time pada kernel.
 Pada computer yang standalone atau tidak selalu tersambung pada
 jaringan, root dapat menggunakan adjtimex untuk melakukan koreksi bagi
@@ -94,103 +94,103 @@ dilengkapi dengan precision oscillator atau radio clock, sebaiknya
 anda melakukan hal ini menggunakan program xntpd. Pengguna menggunakan
 adjtimex untuk melihat variable time pada kernel.
 
-%description -l is
-Adjtimex gefur hráan ağgang ağ tímabreytum kjarna. A netlausum eğa
-viğ-og-viğ tengdum vélum getur rót notağ adjtimex til şess ağ
-leiğrétta rek á klukku. Ef vélin şín er tengd viğ internetiğ eğa er
-meğ nákvæmt tímamælingartæki ættir şú frekar ağ breyta kerfisklukkunni
-meğ xntpd forritinu. Notendur geta notağ adjtimex til şess ağ sjá
-tímabreytur kjarna.
+%description -l is.UTF-8
+Adjtimex gefur hrÃ¡an aÃ°gang aÃ° tÃ­mabreytum kjarna. A netlausum eÃ°a
+viÃ°-og-viÃ° tengdum vÃ©lum getur rÃ³t notaÃ° adjtimex til Ã¾ess aÃ°
+leiÃ°rÃ©tta rek Ã¡ klukku. Ef vÃ©lin Ã¾Ã­n er tengd viÃ° internetiÃ° eÃ°a er
+meÃ° nÃ¡kvÃ¦mt tÃ­mamÃ¦lingartÃ¦ki Ã¦ttir Ã¾Ãº frekar aÃ° breyta kerfisklukkunni
+meÃ° xntpd forritinu. Notendur geta notaÃ° adjtimex til Ã¾ess aÃ° sjÃ¡
+tÃ­mabreytur kjarna.
 
-%description -l it
+%description -l it.UTF-8
 Adjtimex fornisce un accesso di basso livello alle variabili temporali
 del kernel. Su elaboratori indipendenti o connessi in
-modointermittente, il root può utilizzare adjtimex per correggere la
-deriva sistematica dell'orologio. Se l'elaboratore è connesso a
+modointermittente, il root puÃ² utilizzare adjtimex per correggere la
+deriva sistematica dell'orologio. Se l'elaboratore Ã¨ connesso a
 Internet o dotato di oscillatore di precisione o orologio radio si
 consiglia di utilizzare il programma xntpd per gestire l'orologio di
 sistema. Gli utenti possono utilizzare adjtimex per visualizzare le
 variabili temporali del kernel.
 
-%description -l ja
-adjtimex ¤Ï¡¢¥«¡¼¥Í¥ë¤Î»ş´ÖÊÑ¿ô¤Ø¤ÎÄ¾ÀÜ¥¢¥¯¥»¥¹¤òÄó¶¡¤·¤Ş¤¹¡£
-¥¹¥¿¥ó¥É¥¢¥í¡¼¥ó¤Ş¤¿¤ÏÁê¸ßÀÜÂ³¤µ¤ì¤¿¥Ş¥·¥ó¾å¤Ç¡¢root ¥æ¡¼¥¶¡¼¤Ï
+%description -l ja.UTF-8
+adjtimex ã¯ã€ã‚«ãƒ¼ãƒãƒ«ã®æ™‚é–“å¤‰æ•°ã¸ã®ç›´æ¥ã‚¢ã‚¯ã‚»ã‚¹ã‚’æä¾›ã—ã¾ã™ã€‚
+ã‚¹ã‚¿ãƒ³ãƒ‰ã‚¢ãƒ­ãƒ¼ãƒ³ã¾ãŸã¯ç›¸äº’æ¥ç¶šã•ã‚ŒãŸãƒã‚·ãƒ³ä¸Šã§ã€root ãƒ¦ãƒ¼ã‚¶ãƒ¼ã¯
 adjtimex
-¤ò»ÈÍÑ¤·¤Æ¥·¥¹¥Æ¥à¤Î»ş´Ö¸íº¹¤ò½¤Àµ¤Ç¤­¤Ş¤¹¡£¤´»ÈÍÑ¤Î¥Ş¥·¥ó¤¬¥¤¥ó¥¿¡¼¥Í¥Ã¥È
-¤ËÀÜÂ³¤µ¤ì¤Æ¤¤¤ë¾ì¹ç¡¢¤Ş¤¿¤ÏÀºÅÙÈ¯¿¶´ï¤ä¥é¥¸¥ª
-¥¯¥í¥Ã¥¯¤¬ÁõÈ÷¤µ¤ì¤Æ¤¤¤ë¾ì¹ç¡¢Âå¤ï¤ê¤Ë xntpd ¥×¥í¥°¥é¥à¤ò
-»ÈÍÑ¤·¤Æ¥·¥¹¥Æ¥à¥¯¥í¥Ã¥¯¤ò´ÉÍı¤¹¤ëÉ¬Í×¤¬¤¢¤ê¤Ş¤¹¡£¥æ¡¼¥¶¡¼¤Ï¡¢
-adjtimex ¤ò»ÈÍÑ¤·¤Æ¡¢¥«¡¼¥Í¥ë¤Î»ş´ÖÊÑ¿ô¤ò»²¾È¤Ç¤­¤Ş¤¹¡£
+ã‚’ä½¿ç”¨ã—ã¦ã‚·ã‚¹ãƒ†ãƒ ã®æ™‚é–“èª¤å·®ã‚’ä¿®æ­£ã§ãã¾ã™ã€‚ã”ä½¿ç”¨ã®ãƒã‚·ãƒ³ãŒã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆ
+ã«æ¥ç¶šã•ã‚Œã¦ã„ã‚‹å ´åˆã€ã¾ãŸã¯ç²¾åº¦ç™ºæŒ¯å™¨ã‚„ãƒ©ã‚¸ã‚ª
+ã‚¯ãƒ­ãƒƒã‚¯ãŒè£…å‚™ã•ã‚Œã¦ã„ã‚‹å ´åˆã€ä»£ã‚ã‚Šã« xntpd ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’
+ä½¿ç”¨ã—ã¦ã‚·ã‚¹ãƒ†ãƒ ã‚¯ãƒ­ãƒƒã‚¯ã‚’ç®¡ç†ã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ãƒ¦ãƒ¼ã‚¶ãƒ¼ã¯ã€
+adjtimex ã‚’ä½¿ç”¨ã—ã¦ã€ã‚«ãƒ¼ãƒãƒ«ã®æ™‚é–“å¤‰æ•°ã‚’å‚ç…§ã§ãã¾ã™ã€‚
 
-%description -l nb
-Adjtimex gir direkte tilgang til kjernens tidvariabler. På
-frittstående eller midlertidige tilkoblede maskiner, kan root bruke
-adjtimex til å korrigere systemets tidsavvik. Hvis din maskin er
+%description -l nb.UTF-8
+Adjtimex gir direkte tilgang til kjernens tidvariabler. PÃ¥
+frittstÃ¥ende eller midlertidige tilkoblede maskiner, kan root bruke
+adjtimex til Ã¥ korrigere systemets tidsavvik. Hvis din maskin er
 tilkoblet Internett eller er utstyrt med en presisjonsoscillator eller
-radioklokke, bør du heller bruke xntpd programmet til å styre klokken.
-Brukere kan bruke adjtimex til å vise kjernens tidsvariabler.
+radioklokke, bÃ¸r du heller bruke xntpd programmet til Ã¥ styre klokken.
+Brukere kan bruke adjtimex til Ã¥ vise kjernens tidsvariabler.
 
-%description -l pl
-Adjtimex umo¿liwia niskopoziomowy dostêp do zmiennych czasu
-systemowego. W systemach wolnostoj±cych lub pod³±czonych do Internetu
-w sposób nieci±g³y, program ten mo¿e zostaæ wykorzystany przez roota
-do korekcji dryfu zegara systemowego. Je¶li maszyna jest pod³±czona do
-Internetu lub wyposa¿ona w precyzyjny generator czêstotliwo¶ci lub
-zegar radiowy, lepiej do korekcji czasu systemowego u¿ywaæ zamiast
-niego programu xntpd. Zwykli u¿ytkownicy mog± za pomoc± adjtimex
-podgl±daæ zmienne czasu.
+%description -l pl.UTF-8
+Adjtimex umoÅ¼liwia niskopoziomowy dostÄ™p do zmiennych czasu
+systemowego. W systemach wolnostojÄ…cych lub podÅ‚Ä…czonych do Internetu
+w sposÃ³b nieciÄ…gÅ‚y, program ten moÅ¼e zostaÄ‡ wykorzystany przez roota
+do korekcji dryfu zegara systemowego. JeÅ›li maszyna jest podÅ‚Ä…czona do
+Internetu lub wyposaÅ¼ona w precyzyjny generator czÄ™stotliwoÅ›ci lub
+zegar radiowy, lepiej do korekcji czasu systemowego uÅ¼ywaÄ‡ zamiast
+niego programu xntpd. Zwykli uÅ¼ytkownicy mogÄ… za pomocÄ… adjtimex
+podglÄ…daÄ‡ zmienne czasu.
 
-%description -l pt
-O adjtimex fornece o acesso em bruto às variáveis temporais do núcleo.
-Em sistemas autónomos ou em máquinas ligadas intermitentemente, o
-'root' pode usar o 'adjtimex' para corrigir desvios sistemáticos. Se a
-máquina do utilizador está ligada à Internet ou está equipada com um
-oscilador de precisão ou um relógio-rádio, então deve-se ajustar o
-relógio do sistema com o programa xntpd. Os utilizadores podem usar o
-adjtimex para verificar as variáveis temporais do núcleo.
+%description -l pt.UTF-8
+O adjtimex fornece o acesso em bruto Ã s variÃ¡veis temporais do nÃºcleo.
+Em sistemas autÃ³nomos ou em mÃ¡quinas ligadas intermitentemente, o
+'root' pode usar o 'adjtimex' para corrigir desvios sistemÃ¡ticos. Se a
+mÃ¡quina do utilizador estÃ¡ ligada Ã  Internet ou estÃ¡ equipada com um
+oscilador de precisÃ£o ou um relÃ³gio-rÃ¡dio, entÃ£o deve-se ajustar o
+relÃ³gio do sistema com o programa xntpd. Os utilizadores podem usar o
+adjtimex para verificar as variÃ¡veis temporais do nÃºcleo.
 
-%description -l ru
-Adjtimex ÏÂÅÓĞÅŞÉ×ÁÅÔ ĞÒÑÍÏÊ ÄÏÓÔÕĞ Ë ĞÅÒÅÍÅÎÎÙÍ ×ÒÅÍÅÎÉ ÓÉÓÔÅÍÙ. îÁ
-ËÏÍĞØÀÔÅÒÁÈ, ÎÅ ĞÏÄËÌÀŞÅÎÎÙÈ ÉÌÉ ĞÅÒÉÏÄÉŞÅÓËÉ ĞÏÄËÌÀŞÁÅÍÙÈ Ë ÓÅÔÉ,
-ÁÄÍÉÎÉÓÔÒÁÔÏÒ ÍÏÖÅÔ ÉÓĞÏÌØÚÏ×ÁÔØ adjtimex ÄÌÑ ËÏÒÒÅËÔÉÒÏ×ËÉ
-ÓÉÓÔÅÍÁÔÉŞÅÓËÉÈ ÏÔËÌÏÎÅÎÉÊ ×Ï ×ÒÅÍÅÎÉ. åÓÌÉ ×ÁÛÁ ÍÁÛÉÎÁ ÉÍÅÅÔ ÄÏÓÔÕĞ Ë
-Internet ÉÌÉ ÏÂÏÒÕÄÏ×ÁÎÁ ÔÏŞÎÙÍ ÇÅÔÅÒÏÄÉÎÏÍ ÉÌÉ ÒÁÄÉÏŞÁÓÁÍÉ, ÔÏ ×ÁÍ
-ÌÕŞÛÅ ÕĞÒÁ×ÌÑÔØ ÓÉÓÔÅÍÎÙÍÉ ŞÁÓÁÍÉ Ó ĞÏÍÏØÀ ĞÒÏÇÒÁÍÍÙ xntpd. ÷Ù ÍÏÖÅÔÅ
-ÉÓĞÏÌØÚÏ×ÁÔØ adjtimex ÄÌÑ ĞÒÏÓÍÏÔÒÁ ĞÅÒÅÍÅÎÎÙÈ ×ÒÅÍÅÎÉ ÓÉÓÔÅÍÙ.
+%description -l ru.UTF-8
+Adjtimex Ğ¾Ğ±ĞµÑĞ¿ĞµÑ‡Ğ¸Ğ²Ğ°ĞµÑ‚ Ğ¿Ñ€ÑĞ¼Ğ¾Ğ¹ Ğ´Ğ¾ÑÑ‚ÑƒĞ¿ Ğº Ğ¿ĞµÑ€ĞµĞ¼ĞµĞ½Ğ½Ñ‹Ğ¼ Ğ²Ñ€ĞµĞ¼ĞµĞ½Ğ¸ ÑĞ¸ÑÑ‚ĞµĞ¼Ñ‹. ĞĞ°
+ĞºĞ¾Ğ¼Ğ¿ÑŒÑÑ‚ĞµÑ€Ğ°Ñ…, Ğ½Ğµ Ğ¿Ğ¾Ğ´ĞºĞ»ÑÑ‡ĞµĞ½Ğ½Ñ‹Ñ… Ğ¸Ğ»Ğ¸ Ğ¿ĞµÑ€Ğ¸Ğ¾Ğ´Ğ¸Ñ‡ĞµÑĞºĞ¸ Ğ¿Ğ¾Ğ´ĞºĞ»ÑÑ‡Ğ°ĞµĞ¼Ñ‹Ñ… Ğº ÑĞµÑ‚Ğ¸,
+Ğ°Ğ´Ğ¼Ğ¸Ğ½Ğ¸ÑÑ‚Ñ€Ğ°Ñ‚Ğ¾Ñ€ Ğ¼Ğ¾Ğ¶ĞµÑ‚ Ğ¸ÑĞ¿Ğ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ÑŒ adjtimex Ğ´Ğ»Ñ ĞºĞ¾Ñ€Ñ€ĞµĞºÑ‚Ğ¸Ñ€Ğ¾Ğ²ĞºĞ¸
+ÑĞ¸ÑÑ‚ĞµĞ¼Ğ°Ñ‚Ğ¸Ñ‡ĞµÑĞºĞ¸Ñ… Ğ¾Ñ‚ĞºĞ»Ğ¾Ğ½ĞµĞ½Ğ¸Ğ¹ Ğ²Ğ¾ Ğ²Ñ€ĞµĞ¼ĞµĞ½Ğ¸. Ğ•ÑĞ»Ğ¸ Ğ²Ğ°ÑˆĞ° Ğ¼Ğ°ÑˆĞ¸Ğ½Ğ° Ğ¸Ğ¼ĞµĞµÑ‚ Ğ´Ğ¾ÑÑ‚ÑƒĞ¿ Ğº
+Internet Ğ¸Ğ»Ğ¸ Ğ¾Ğ±Ğ¾Ñ€ÑƒĞ´Ğ¾Ğ²Ğ°Ğ½Ğ° Ñ‚Ğ¾Ñ‡Ğ½Ñ‹Ğ¼ Ğ³ĞµÑ‚ĞµÑ€Ğ¾Ğ´Ğ¸Ğ½Ğ¾Ğ¼ Ğ¸Ğ»Ğ¸ Ñ€Ğ°Ğ´Ğ¸Ğ¾Ñ‡Ğ°ÑĞ°Ğ¼Ğ¸, Ñ‚Ğ¾ Ğ²Ğ°Ğ¼
+Ğ»ÑƒÑ‡ÑˆĞµ ÑƒĞ¿Ñ€Ğ°Ğ²Ğ»ÑÑ‚ÑŒ ÑĞ¸ÑÑ‚ĞµĞ¼Ğ½Ñ‹Ğ¼Ğ¸ Ñ‡Ğ°ÑĞ°Ğ¼Ğ¸ Ñ Ğ¿Ğ¾Ğ¼Ğ¾ÑŒÑ Ğ¿Ñ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ¼Ñ‹ xntpd. Ğ’Ñ‹ Ğ¼Ğ¾Ğ¶ĞµÑ‚Ğµ
+Ğ¸ÑĞ¿Ğ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ÑŒ adjtimex Ğ´Ğ»Ñ Ğ¿Ñ€Ğ¾ÑĞ¼Ğ¾Ñ‚Ñ€Ğ° Ğ¿ĞµÑ€ĞµĞ¼ĞµĞ½Ğ½Ñ‹Ñ… Ğ²Ñ€ĞµĞ¼ĞµĞ½Ğ¸ ÑĞ¸ÑÑ‚ĞµĞ¼Ñ‹.
 
-%description -l sk
-Adjtimex poskytuje nízkoúrovòovı prístup k èasovım premennım jadra. Na
-samostatnıch alebo len prechodne pripojenıch poèítaèoch mô¾e
-superpou¾ívateµ korigova» systematickı posun hodín systému. Pokiaµ je
-váµ poèítaè pripojenı k Internetu alebo je vybavenı presnım
-oscilátorom alebo rádiovımi hodinami, mali by ste spravova» systémové
-hodiny programom xntpd. Obyèajní pou¾ívatelia mô¾u adjtimex-om
-prezera» nastavenie príslu¹nıch premennıch jadra.
+%description -l sk.UTF-8
+Adjtimex poskytuje nÃ­zkoÃºrovÅˆovÃ½ prÃ­stup k ÄasovÃ½m premennÃ½m jadra. Na
+samostatnÃ½ch alebo len prechodne pripojenÃ½ch poÄÃ­taÄoch mÃ´Å¾e
+superpouÅ¾Ã­vateÄ¾ korigovaÅ¥ systematickÃ½ posun hodÃ­n systÃ©mu. PokiaÄ¾ je
+vÃ¡Ä¾ poÄÃ­taÄ pripojenÃ½ k Internetu alebo je vybavenÃ½ presnÃ½m
+oscilÃ¡torom alebo rÃ¡diovÃ½mi hodinami, mali by ste spravovaÅ¥ systÃ©movÃ©
+hodiny programom xntpd. ObyÄajnÃ­ pouÅ¾Ã­vatelia mÃ´Å¾u adjtimex-om
+prezeraÅ¥ nastavenie prÃ­sluÅ¡nÃ½ch premennÃ½ch jadra.
 
-%description -l sv
-Adjtimex erbjuder rå tillgång till kärnans tidsvariabler. På
-fristående eller intermittent uppkopplade maskiner, kan root använda
-adjtimex för att korrigera för systematisk drift. Om din maskin är
+%description -l sv.UTF-8
+Adjtimex erbjuder rÃ¥ tillgÃ¥ng till kÃ¤rnans tidsvariabler. PÃ¥
+fristÃ¥ende eller intermittent uppkopplade maskiner, kan root anvÃ¤nda
+adjtimex fÃ¶r att korrigera fÃ¶r systematisk drift. Om din maskin Ã¤r
 uppkopplad till Internet eller utrustad med en precisionsoscillator
-eller radioklocka skall du istället styra systemklockan med
-xntpd-programmet. Användare kan använda adjtimex för att se kärnans
+eller radioklocka skall du istÃ¤llet styra systemklockan med
+xntpd-programmet. AnvÃ¤ndare kan anvÃ¤nda adjtimex fÃ¶r att se kÃ¤rnans
 tidsvariabler.
 
-%description -l uk
-Adjtimex ÄÏÚ×ÏÌÑ¤ ÍÁÎ¦ĞÕÌÀ×ÁÔÉ Ú ËÏÍÁÎÄÎÏÇÏ ÒÑÄËÁ ÚÍ¦ÎÎÉÍÉ ÑÄÒÁ, ÑË¦
-×¦ÄĞÏ×¦ÄÁÀÔØ ÚÁ ËÏÒÅËÃ¦À ÈÏÄÕ ÓÉÓÔÅÍÎÏÇÏ ÇÏÄÉÎÎÉËÁ. úÁ×ÄÑËÉ ÃØÏÍÕ ¤
-ÍÏÖÌÉ×¦ÓÔØ ËÏÒÅÇÕ×ÁÔÉ ÓÉÓÔÅÍÎÉÊ ÇÏÄÉÎÎÉË ÂÅÚ ×ÉËÏÒÉÓÔÁÎÎÑ ntpd, ËÏÔÒÉÊ
-×ÉÍÁÇÁ¤ ÎÁÑ×ÎÏÓÔ¦ ĞÏÓÔ¦ÊÎÏÇÏ Ú×'ÑÚËÕ Ú ÅÔÁÌÏÎÎÉÍ ÇÏÄÉÎÎÉËÏÍ.
+%description -l uk.UTF-8
+Adjtimex Ğ´Ğ¾Ğ·Ğ²Ğ¾Ğ»ÑÑ” Ğ¼Ğ°Ğ½Ñ–Ğ¿ÑƒĞ»ÑĞ²Ğ°Ñ‚Ğ¸ Ğ· ĞºĞ¾Ğ¼Ğ°Ğ½Ğ´Ğ½Ğ¾Ğ³Ğ¾ Ñ€ÑĞ´ĞºĞ° Ğ·Ğ¼Ñ–Ğ½Ğ½Ğ¸Ğ¼Ğ¸ ÑĞ´Ñ€Ğ°, ÑĞºÑ–
+Ğ²Ñ–Ğ´Ğ¿Ğ¾Ğ²Ñ–Ğ´Ğ°ÑÑ‚ÑŒ Ğ·Ğ° ĞºĞ¾Ñ€ĞµĞºÑ†Ñ–Ñ Ñ…Ğ¾Ğ´Ñƒ ÑĞ¸ÑÑ‚ĞµĞ¼Ğ½Ğ¾Ğ³Ğ¾ Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ½Ğ¸ĞºĞ°. Ğ—Ğ°Ğ²Ğ´ÑĞºĞ¸ Ñ†ÑŒĞ¾Ğ¼Ñƒ Ñ”
+Ğ¼Ğ¾Ğ¶Ğ»Ğ¸Ğ²Ñ–ÑÑ‚ÑŒ ĞºĞ¾Ñ€ĞµĞ³ÑƒĞ²Ğ°Ñ‚Ğ¸ ÑĞ¸ÑÑ‚ĞµĞ¼Ğ½Ğ¸Ğ¹ Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ½Ğ¸Ğº Ğ±ĞµĞ· Ğ²Ğ¸ĞºĞ¾Ñ€Ğ¸ÑÑ‚Ğ°Ğ½Ğ½Ñ ntpd, ĞºĞ¾Ñ‚Ñ€Ğ¸Ğ¹
+Ğ²Ğ¸Ğ¼Ğ°Ğ³Ğ°Ñ” Ğ½Ğ°ÑĞ²Ğ½Ğ¾ÑÑ‚Ñ– Ğ¿Ğ¾ÑÑ‚Ñ–Ğ¹Ğ½Ğ¾Ğ³Ğ¾ Ğ·Ğ²'ÑĞ·ĞºÑƒ Ğ· ĞµÑ‚Ğ°Ğ»Ğ¾Ğ½Ğ½Ğ¸Ğ¼ Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ½Ğ¸ĞºĞ¾Ğ¼.
 
-ğ¦ÄÔÒÉÍÕ¤ÔØÓÑ ĞÏÒ¦×ÎÑÎÎÑ ×ÁÛÏÇÏ ÓÉÓÔÅÍÎÏÇÏ ÇÏÄÉÎÎÉËÁ Ú ÅÔÁÌÏÎÎÉÍ
-ÄÖÅÒÅÌÏÍ ŞÁÓÕ, ×ËÌÀŞÁÀŞÉ RTC ×ÁÛÏÇÏ ËÏÍĞ'ÀÔÅÒÁ.
+ĞŸÑ–Ğ´Ñ‚Ñ€Ğ¸Ğ¼ÑƒÑ”Ñ‚ÑŒÑÑ Ğ¿Ğ¾Ñ€Ñ–Ğ²Ğ½ÑĞ½Ğ½Ñ Ğ²Ğ°ÑˆĞ¾Ğ³Ğ¾ ÑĞ¸ÑÑ‚ĞµĞ¼Ğ½Ğ¾Ğ³Ğ¾ Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ½Ğ¸ĞºĞ° Ğ· ĞµÑ‚Ğ°Ğ»Ğ¾Ğ½Ğ½Ğ¸Ğ¼
+Ğ´Ğ¶ĞµÑ€ĞµĞ»Ğ¾Ğ¼ Ñ‡Ğ°ÑÑƒ, Ğ²ĞºĞ»ÑÑ‡Ğ°ÑÑ‡Ğ¸ RTC Ğ²Ğ°ÑˆĞ¾Ğ³Ğ¾ ĞºĞ¾Ğ¼Ğ¿'ÑÑ‚ĞµÑ€Ğ°.
 
-%description -l zh_CN
+%description -l zh_CN.UTF-8
 Adjtimex
-Ìá¹©ÁË¶ÔÔ­Ê¼ÄÚºËÊ±¼ä±äÁ¿µÄ´æÈ¡¹¦ÄÜ¡£ÔÚ¶ÀÁ¢»ò¼äĞªÊ½Á¬½ÓµÄ¼ÆËã»úÉÏ£¬
-¸ù¿ÉÒÔÊ¹ÓÃ adjtimex Ğ£ÕıÏµÍ³Æ«²î¡£Èç¹ûÄúµÄ¼ÆËã»úÒÑÁ¬½ÓÖÁ Internet£¬
-»òÕßÅä±¸ÁË¾«ÃÜÕñµ´Æ÷»òÎŞÏßµçÊ±ÖÓ£¬ÔòÓ¦¸ÃÊ¹ÓÃ xntpd ³ÌĞò¹ÜÀíÏµÍ³Ê±ÖÓ¡£
-ÓÃ»§¿ÉÒÔÊ¹ÓÃ adjtimex ²é¿´ÄÚºËÊ±¼ä±äÁ¿¡£
+æä¾›äº†å¯¹åŸå§‹å†…æ ¸æ—¶é—´å˜é‡çš„å­˜å–åŠŸèƒ½ã€‚åœ¨ç‹¬ç«‹æˆ–é—´æ­‡å¼è¿æ¥çš„è®¡ç®—æœºä¸Šï¼Œ
+æ ¹å¯ä»¥ä½¿ç”¨ adjtimex æ ¡æ­£ç³»ç»Ÿåå·®ã€‚å¦‚æœæ‚¨çš„è®¡ç®—æœºå·²è¿æ¥è‡³ Internetï¼Œ
+æˆ–è€…é…å¤‡äº†ç²¾å¯†æŒ¯è¡å™¨æˆ–æ— çº¿ç”µæ—¶é’Ÿï¼Œåˆ™åº”è¯¥ä½¿ç”¨ xntpd ç¨‹åºç®¡ç†ç³»ç»Ÿæ—¶é’Ÿã€‚
+ç”¨æˆ·å¯ä»¥ä½¿ç”¨ adjtimex æŸ¥çœ‹å†…æ ¸æ—¶é—´å˜é‡ã€‚
 
 %prep
 %setup -q
