@@ -1,22 +1,22 @@
 Summary:	A utility for adjusting kernel time variables
-Summary(cs.UTF-8):   Program pro nastavování časových proměnných jádra
-Summary(da.UTF-8):   Et værktøj til at justere kernetidsvariabler
-Summary(de.UTF-8):   Ein Dienstprogramm für die Einstellung der Kernel-Zeitvariablen
-Summary(es.UTF-8):   Utilidad para modificar las variables de tiempo del kernel
-Summary(fr.UTF-8):   Utilitaire pour le réglage de l'horloge du noyau
-Summary(id.UTF-8):   Utility untuk menyamakan variabel time kernel
-Summary(is.UTF-8):   Tól til að stilla tímabreytur í kjarna
-Summary(it.UTF-8):   Utility per modificare le variabili temporali del kernel
-Summary(ja.UTF-8):   カーネルの時間変数を調整するためのユーティリティ
-Summary(nb.UTF-8):   Et verktøy for å justere kjernens tidsvariabler
-Summary(pl.UTF-8):   Narzędzie do regulacji zmiennych czasu kernela
-Summary(pt.UTF-8):   Um utilitário para ajustar as variáveis de tempo do núcleo
-Summary(ru.UTF-8):   Утилита для внесения поправок в переменные времени ядра
-Summary(sk.UTF-8):   Pomôcka pre úpravu premenných hodín jadra
-Summary(sl.UTF-8):   Pripomoček za prikrojitev časovnih spremenljivk jedra
-Summary(sv.UTF-8):   Ett verktyg för att justera kärnans tidsvariabler
-Summary(uk.UTF-8):   Утиліта для внесення поправок в змінні часу ядра
-Summary(zh_CN.UTF-8):   用于调整内核时间变量的实用程序。
+Summary(cs.UTF-8):	Program pro nastavování časových proměnných jádra
+Summary(da.UTF-8):	Et værktøj til at justere kernetidsvariabler
+Summary(de.UTF-8):	Ein Dienstprogramm für die Einstellung der Kernel-Zeitvariablen
+Summary(es.UTF-8):	Utilidad para modificar las variables de tiempo del kernel
+Summary(fr.UTF-8):	Utilitaire pour le réglage de l'horloge du noyau
+Summary(id.UTF-8):	Utility untuk menyamakan variabel time kernel
+Summary(is.UTF-8):	Tól til að stilla tímabreytur í kjarna
+Summary(it.UTF-8):	Utility per modificare le variabili temporali del kernel
+Summary(ja.UTF-8):	カーネルの時間変数を調整するためのユーティリティ
+Summary(nb.UTF-8):	Et verktøy for å justere kjernens tidsvariabler
+Summary(pl.UTF-8):	Narzędzie do regulacji zmiennych czasu kernela
+Summary(pt.UTF-8):	Um utilitário para ajustar as variáveis de tempo do núcleo
+Summary(ru.UTF-8):	Утилита для внесения поправок в переменные времени ядра
+Summary(sk.UTF-8):	Pomôcka pre úpravu premenných hodín jadra
+Summary(sl.UTF-8):	Pripomoček za prikrojitev časovnih spremenljivk jedra
+Summary(sv.UTF-8):	Ett verktyg för att justera kärnans tidsvariabler
+Summary(uk.UTF-8):	Утиліта для внесення поправок в змінні часу ядра
+Summary(zh_CN.UTF-8):	用于调整内核时间变量的实用程序。
 Name:		adjtimex
 Version:	1.21
 Release:	1
