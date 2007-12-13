@@ -24,6 +24,7 @@ License:	GPL v2+
 Group:		Base
 Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.tar.gz
 # Source0-md5:	9888b54f418d7cc120fd3a4222f01c9c
+Patch0:		%{name}-compile.patch
 BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -194,6 +195,7 @@ Adjtimex
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__autoconf}
