@@ -217,5 +217,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc COPYRIGHT ChangeLog README
 %lang(ru) %doc README.ru
-%attr(755,root,root) %{_sbindir}/*
-%{_mandir}/man8/*
+%attr(755,root,root) %{_sbindir}/adjtimex
+%{_mandir}/man8/adjtimex.8*
