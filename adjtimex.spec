@@ -18,14 +18,13 @@ Summary(sv.UTF-8):	Ett verktyg för att justera kärnans tidsvariabler
 Summary(uk.UTF-8):	Утиліта для внесення поправок в змінні часу ядра
 Summary(zh_CN.UTF-8):	用于调整内核时间变量的实用程序。
 Name:		adjtimex
-Version:	1.21
+Version:	1.28
 Release:	1
 License:	GPL v2+
 Group:		Base
-Source0:	ftp://sunsite.unc.edu/pub/Linux/system/admin/time/%{name}-%{version}.tar.gz
-# Source0-md5:	9888b54f418d7cc120fd3a4222f01c9c
-Patch0:		%{name}-compile.patch
-BuildRequires:	autoconf
+Source0:	http://www.ibiblio.org/pub/Linux/system/admin/time/%{name}-%{version}.tar.gz
+# Source0-md5:	dda82922374230dbd9475c79c79ac909
+BuildRequires:	autoconf >= 2.60
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sbindir		/sbin
@@ -195,7 +194,6 @@ Adjtimex
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__autoconf}
